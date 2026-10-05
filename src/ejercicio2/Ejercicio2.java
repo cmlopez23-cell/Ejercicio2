@@ -35,6 +35,8 @@ public class Ejercicio2 {
             }else{
                 descuento = subtotal * 0.05;
             }
+        }else{
+            System.out.println("No Aplica descuento");
         }
         total = subtotal - descuento;
         System.out.println("El total a pagar es: "+total);
